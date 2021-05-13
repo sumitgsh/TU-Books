@@ -1,15 +1,15 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/client/tu-books/node_modules
-/client/tu-books/.pnp
-client/tu-books/.pnp.js
+/client/node_modules
+/client/.pnp
+client/.pnp.js
 
 # testing
-/client/tu-books/coverage
+/client/coverage
 
 # production
-/client/tu-books/build
+/client/build
 
 # misc
 .DS_Store
@@ -21,3 +21,4 @@ client/tu-books/.pnp.js
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
