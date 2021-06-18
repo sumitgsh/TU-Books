@@ -22,4 +22,4 @@ jobs:
           webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
           color: "#48f442"
           username: "TU-Books"
-          message: You have a new  ${{ github.event_name }} 
+          message: You have a new  ${{ github.event_name }} request
