@@ -21,5 +21,5 @@ jobs:
           webhook_id: ${{ secrets.WEBHOOK_ID }}
           webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
           color: "#48f442"
-          username: "NoiceCurse"
-          message: The ${{ github.event_name }} event triggered this message from GitHub
+          username: "TU-Books"
+          message: You have a new  ${{ github.event_name }} 
