@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-This documentation contains a set of guidelines to help you during the contribution process. We are happy to welcome all the contributors who are willing to enhance/add documentation and features to this project. Feel free to contribute and remember, no contribution is too small.
+This documentation contains a set of guidelines to help you during the contribution process to TU-Books. We are happy to welcome all the contributors who are willing to enhance/add documentation and features to this project. Feel free to contribute and remember, no contribution is too small.
 
 ## Submitting Contributions :
 
