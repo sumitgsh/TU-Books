@@ -14,13 +14,13 @@ Refer to https://nodejs.org/en/ to install nodejs
 
 
 ## How to contribute?
-Please go through the [contributing guideline]('https://github.com/sumitgsh/TU-Books/blob/main/CONTRIBUTING.md')
+Please go through the [contributing guideline](https://github.com/sumitgsh/TU-Books/blob/main/CONTRIBUTING.md)
 
 
 
 ## Cloning and running the application in Local-Environment?
 
-- Clone the project into local-directory for further reference follow the [contributing  guideline]('https://github.com/sumitgsh/TU-Books/blob/main/CONTRIBUTING.md') file
+- Clone the project into local-directory for further reference follow the [contributing  guideline](https://github.com/sumitgsh/TU-Books/blob/main/CONTRIBUTING.md) file
 
 - Install all the npm packages. Go into the project folder
 
