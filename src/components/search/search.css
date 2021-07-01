@@ -1,0 +1,44 @@
+.searchComponent .row{
+    padding: 2% 5%;
+}
+
+.p1{
+    color:#fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.p2{
+    color: grey;
+    font-size: 1.2rem;
+}
+.searchBtn{
+    margin: 20px 20%;
+    background: grey;
+    padding: 1% 2%;
+    border-radius: 2%;
+}
+
+.searchBtn input{
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 80%;
+    float: left;
+    color: #fff;
+    
+}
+
+::placeholder{
+    color: #fff;
+    opacity: 1;
+}
+
+.searchBtn button{
+    background: limegreen;
+    width: 20%;
+    outline: none;
+    border: none;
+    border-radius: 5%;
+    color: #fff;
+}

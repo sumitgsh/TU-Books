@@ -1,0 +1,16 @@
+.nav{
+    padding: 10px;
+    size: 1.2rem;
+}
+
+.nav p{
+    padding-left: 20px;
+}
+
+.nav span{
+    padding: 0 30px;
+}
+
+.link{
+    color:#fff;
+}
