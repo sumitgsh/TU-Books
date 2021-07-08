@@ -1,0 +1,57 @@
+.suggest{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    width: 100%;
+}
+
+.suggest-div{
+    border: 1px solid black;
+    margin: 1rem;
+    width:50%;
+    padding: 1rem 8rem;
+    background-color: #4B1936;
+}
+
+.suggest-div h4,.suggest-div p{
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    background-color: #C4C4C4;
+    border: none;
+    outline: none;
+    padding: 0.2rem;
+}
+
+.submit-btn{
+    text-align: center;
+    background-color: #44C6C6;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    outline: none;
+    margin: 1rem 0;
+}
+
+@media all and (max-width:992px){
+    .suggest-div{
+        width: 70%;
+        padding: 1rem 4rem;
+    }
+}
+
+@media all and (max-width:772px){
+    .suggest-div{
+        width: 80%;
+        padding: 1rem 3rem;
+    }
+}
+
+@media all and (max-width:576px){
+    .suggest-div{
+        width: 90%;
+        padding: 1rem 2rem;
+    }
+}
