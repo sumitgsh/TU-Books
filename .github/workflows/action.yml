@@ -1,25 +1,14 @@
 name: Discord Messenger
-
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
-  workflow_dispatch:
-
+on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
-    
     steps:
-      - uses: actions/checkout@v2
-
       - name: send message
         uses: appleboy/discord-action@master
         with:
           webhook_id: ${{ secrets.WEBHOOK_ID }}
           webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
           color: "#48f442"
-          username: "TU-Books"
+          username: "Github-Bot"
           message: You have a new  ${{ github.event_name }} request
