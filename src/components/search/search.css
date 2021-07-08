@@ -1,22 +1,22 @@
-.searchComponent .row{
-    padding: 2% 5%;
+.searchComponent{
+    display: flex;
+    flex-direction: column;
 }
 
 .p1{
     color:#fff;
-    font-size: 1.5rem;
+    font-size: 2.3rem;
     font-weight: 600;
 }
 
 .p2{
     color: grey;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
+
 .searchBtn{
-    margin: 20px 20%;
     background: grey;
-    padding: 1% 2%;
-    border-radius: 2%;
+    padding: 2%;
 }
 
 .searchBtn input{
@@ -39,6 +39,49 @@
     width: 20%;
     outline: none;
     border: none;
-    border-radius: 5%;
     color: #fff;
 }
+
+.sideimg{
+    width: 100%;
+}
+
+/* Mobile View */
+@media all and (max-width:770px){
+    body{
+        width: 100vw;
+    }
+    .banner-div{
+        display: none;
+    }
+    .searchBtn input{
+        width: 70%;
+    }
+    .searchBtn button{
+        width: 30%;
+    }
+}
+
+
+  /* DEMO-SPECIFIC STYLES */
+  .typewriter{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 5.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }

@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 export default function Navbar(){
     return(
-        <div className=' nav d-flex justify-content-between'>
+        <div className=' nav d-flex justify-content-between shadow p-2'>
             <p><Link to="/" className="link">TU Books</Link></p>
             <div>
                 <span><Link to="/books" className="link">Books</Link></span>

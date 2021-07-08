@@ -1,24 +1,25 @@
 import React from 'react';
 import './search.css';
+import banner from '../../assets/images/banner.png';
 
 export default function Search() {
 
     return (
-        <div className="container searchComponent">
-            <div className="row  text-left">
-                <div className="col align-self-center">
-                    <p className="p1">Find your books under-one roof<br/>& no more asking before exam</p>
+        <div className="container py-3">
+            <div className="row text-center">
+                <div className="col-md-6 col-sm-12 align-self-center text-left">
+                    <p className="p1">Find your books under-one roof.<br/>No more asking before exam</p>
                     <p className="p2">The quick way to find your book</p>
                 </div>
-                <div className="col text-right">
-                    <img src="" alt="banner"></img>
+                <div className="col-md-6 text-center banner-div">
+                    <img className="align-self-center sideimg" src={banner} alt="banner"></img>
                 </div>
             </div>
-            <div className="row text-center">
-                <div className="col">
-                    <div className="searchBtn">
+            <div className="row d-flex justify-content-center">
+                <div className="col-md-8 col-sm-12">
+                    <div className="rounded-pill searchBtn">
                         <input type="text" placeholder="Search for your book...."></input>
-                        <button type="button">Search</button>
+                        <button type="button" className="rounded-pill">Search</button>
                     </div>
                 </div>
             </div>
