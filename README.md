@@ -1,6 +1,7 @@
-# TU-Books
 
-![logo](https://github.com/sumitgsh/TU-Books/blob/main/public/Logo.png)
+<p align="center">
+  <img src="https://github.com/sumitgsh/TU-Books/blob/main/public/Logo.png"/>
+</p>
 
 ## Introduction
 
