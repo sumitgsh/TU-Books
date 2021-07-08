@@ -19,8 +19,8 @@ function App() {
                 <Navbar />
                 <Search />
                 <Topics />
-                <Footer />
                 <Suggestion />
+                <Footer />
               </div>
             </Route>
             <Route exact path = "/books">

@@ -1,16 +1,16 @@
 .suggest{
     display: flex;
     justify-content: center;
-    border: 1px solid red;
     width: 100%;
 }
 
 .suggest-div{
-    border: 1px solid black;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,1)!important;
     margin: 1rem;
     width:50%;
-    padding: 1rem 8rem;
+    padding: 1rem 4rem;
     background-color: #4B1936;
+    transform: translateY(130px);
 }
 
 .suggest-div h4,.suggest-div p{
@@ -23,6 +23,11 @@ input{
     border: none;
     outline: none;
     padding: 0.2rem;
+}
+
+.block
+{
+    padding: 0.3rem;
 }
 
 .submit-btn{

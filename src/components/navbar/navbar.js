@@ -1,15 +1,28 @@
-import React from 'react';
-import './navbar.css';
-import {Link} from 'react-router-dom';
+import React from "react";
+import "./navbar.css";
+import { Link } from "react-router-dom";
+import logo from "../../assets/images/Logo.png";
 
-export default function Navbar(){
-    return(
-        <div className=' nav d-flex justify-content-between shadow p-2'>
-            <p><Link to="/" className="link">TU Books</Link></p>
-            <div>
-                <span><Link to="/books" className="link">Books</Link></span>
-                <span><Link to="/about" className="link">About</Link></span>
-            </div>  
+export default function Navbar() {
+  return (
+    <nav className="nav row  navbar shadow p-2">
+      <div className="col-8 col-md-6">
+        <Link to="/" className="logo__con navbar-brand">
+          <img src={logo} alt="logo" className="logo"></img>
+        </Link>
+      </div>
+      <div className="col-4 col-md-6 d-flex justify-content-end">
+        <div>
+          <Link to="/books" className="link">
+            Books
+          </Link>
         </div>
-    )
+        <div>
+          <Link to="/about" className="link">
+            About
+          </Link>
+        </div>
+      </div>
+    </nav>
+  );
 }

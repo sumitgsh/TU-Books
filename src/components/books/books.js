@@ -42,11 +42,11 @@ export default function Books(){
                 <div className="col-lg-10 col-12">
                     <h5>Search Results:</h5>
                     <div className="row">
-                        <BookCover name="Introduction to Software Engineering" author="Rajib Mall" edition="4th" img="" link=""/>
-                        <BookCover name="Database Management System with MySQL" author="Dannis Ritchie" edition="5th" img="" link=""/>
+                        <BookCover name="Introduction to Software Engineering" author="Rajib Mall" edition="4th" img="" link="ss"/>
+                        <BookCover name="Database Management System with MySQL" author="Dannis Ritchie" edition="5th" img="" link="ss"/>
                         <BookCover name="Programming in C" author="E Balaguruswamy" edition="2nd" img="" link="hi5"/>
-                        <BookCover name="Programming in Java" author="E Balaguruswamy" edition="2nd" img="" link=""/>
-                        <BookCover name="Data Mining and Data Warehousing" author="Prateek Bhatia" edition="1st" img="" link=""/>
+                        <BookCover name="Programming in Java" author="E Balaguruswamy" edition="2nd" img="" link="ss"/>
+                        <BookCover name="Data Mining and Data Warehousing" author="Prateek Bhatia" edition="1st" img="" link="ss"/>
                     </div>
                 </div>
             </div>

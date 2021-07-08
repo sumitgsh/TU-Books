@@ -2,12 +2,39 @@
     background-color: #805E72;
     padding-top: 8rem;
     color: #4B1936;
-    font-weight: 800;
-    position: relative;
+    font-weight: 350;
+    
+}
+
+.f__message,.contacts
+{
+    font-size: 1.2rem;
+}
+
+.logo__con img
+{
+   width:100%;
+   height: auto;
+   object-fit: cover;
+}
+.logo__con
+{
+    width: 250px;
+    height: 60px;
 }
 
 @media all and (max-width:770px){
     .align-left{
         text-align: left;
+    }
+}
+
+@media all and (max-width:770px){
+    .align-left{
+        text-align: left;
+    }
+    .f__message,.contacts
+    {
+        font-size: 0.8rem;
     }
 }

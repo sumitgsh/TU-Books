@@ -2,11 +2,14 @@
     display: flex;
     flex-direction: column;
 }
+img{
+    filter: drop-shadow(5px 5px 5px #222);
+}
 
 .p1{
     color:#fff;
     font-size: 2.3rem;
-    font-weight: 600;
+    font-weight: 350;
 }
 
 .p2{
@@ -16,7 +19,7 @@
 
 .searchBtn{
     background: grey;
-    padding: 2%;
+    padding: 5px;
 }
 
 .searchBtn input{
@@ -26,6 +29,8 @@
     width: 80%;
     float: left;
     color: #fff;
+    padding-left: 10px;
+    font-size: 1.3rem;
     
 }
 
@@ -40,10 +45,11 @@
     outline: none;
     border: none;
     color: #fff;
+    height: 2.4rem;
 }
 
 .sideimg{
-    width: 100%;
+    width: 80%;
 }
 
 /* Mobile View */
