@@ -1,0 +1,147 @@
+
+
+
+
+#heading
+{
+    font-weight: 370;
+    font-size: 2.8rem;
+}
+.schedule__arrow
+{
+    position: relative;
+}
+
+svg
+{
+
+    position: absolute;
+    top:-60px;
+    left:170px;
+    object-fit: contain;
+}
+path
+{
+    padding: 20px;
+}
+.working
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stage
+{
+    position: relative;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stage__subcontent
+{
+    color:grey;
+}
+
+.circle
+{
+    position:absolute;
+    background:grey;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+}
+.stage-content
+{
+    padding-top:40% ;
+}
+
+.stage-content h4
+{
+    font-weight: 350;
+}
+
+.no
+{
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.path {
+    stroke-dasharray: 60;
+    stroke-width: 2.5px;
+    stroke: white;
+  }
+
+.schedule__working
+{
+    margin-top: 6.4rem;
+}
+
+
+  @media  screen and (max-width:770px) {
+    svg
+    {
+        display: none;
+    }
+    .stage{
+        border-left: dashed 2.5px white;
+    }
+     .stage-content
+     {
+         padding-top: 7%;
+         margin-left:20px ;
+     } 
+    .circle
+    {
+        position:absolute;
+        top:30px;
+        left:-30px;
+    }
+    .no
+    {
+        padding: 15px;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+  }
+
+  @media  screen and (max-width:990px) {
+    svg
+    {
+        width: 460px;
+        position: absolute;
+        top:37px;
+        left:100px;
+        object-fit: contain;
+    }
+      
+}
+
+@media  screen and (min-width:1000px) {
+    svg
+    {
+        width: 610px;
+        position: absolute;
+        top:0px;
+        left:140px;
+        object-fit: contain;
+    }
+}
+
+
+  @media  screen and (min-width:1200px) {
+    svg
+    {
+        width: 710px;
+        position: absolute;
+        top:-40px;
+        left:200px;
+        object-fit: contain;
+    }
+      
+}

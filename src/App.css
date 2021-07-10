@@ -4,3 +4,11 @@
 
 }
 
+.nav{
+  padding: 10px;
+  size: 1.2rem;
+  z-index: 1;
+  background:#4B1936 !important;
+  
+}
+

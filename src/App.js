@@ -8,6 +8,7 @@ import Books from './components/books/books';
 import Suggestion from './components/suggestion/suggestion';
 import Footer from './components/footer/footer';
 import About from './components/about/about';
+import Schedule from './components/schedule/schedule';
 
 function App() {
   return(
@@ -16,9 +17,10 @@ function App() {
       <Switch>
             <Route exact path = "/">
               <div className='background'>
-                <Navbar />
+                <Navbar className="nav"/>
                 <Search />
                 <Topics />
+                <Schedule/>
                 <Suggestion />
                 <Footer />
               </div>
