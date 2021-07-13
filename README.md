@@ -11,7 +11,7 @@
 ## Pre-requisites
  
 ## Install Node JS
-Refer to https://nodejs.org/en/ to install nodejs
+Refer to https://nodejs.org/en/ to install nodejs.
 
 
 ## How to contribute?
