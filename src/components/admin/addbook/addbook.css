@@ -1,0 +1,11 @@
+.admin-add-book-div{
+    background-color: #4B1936;
+    color:black;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.admin-add-book-div h3{
+    text-align: center;
+}
