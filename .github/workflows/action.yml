@@ -10,10 +10,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: send message
-        uses: actions/checkout@v2
-      - uses: appleboy/discord-action@master
-        with:
+     - uses: actions/checkout@master
+     - name: send message
+       uses: appleboy/discord-action@master
+       with:
           webhook_id: ${{ secrets.WEBHOOK_ID }}
           webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
           color: "#48f442"
