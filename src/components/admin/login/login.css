@@ -1,0 +1,17 @@
+.admin-login-div{
+    background-color: #4B1936;
+    height: 100vh;
+    width:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.admin-login-div h3{
+    text-align: center;
+}
+
+.div-btn{
+    text-align: center;
+}
