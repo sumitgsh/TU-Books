@@ -1,0 +1,76 @@
+body{
+	background-color: #4B1936;
+}
+.container{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	justify-items: center;
+	font-size: 1.5em;
+}
+.top{
+	color: #fff;
+	align-content: center;
+	height: 350px;
+}
+h3{
+	color: #fff;
+	text-align: left;
+}
+.card{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	perspective: 1000px;
+	cursor: pointer;
+}
+.inner-box{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	border-radius: 10px;
+	transition: transform 1s;
+	transform-style: preserve-3d;
+}
+.card-front, .card-back{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	border-radius: 10px;
+}
+.card-front{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.col1{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img.jpg);
+}
+.col2{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img.jpg);
+}
+.col3{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img.jpg);
+}
+.card-back{
+	background: #4B1936;
+	transform: rotateX(180deg);
+}
+.card:hover .inner-box{
+	transform: rotateX(-180deg);
+}
+p{
+	display: inline-block;
+	color: #fff;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #fff;
+	margin-top: 20px;
+	font-size: 16px;
+}
+.social-media img{
+	width: 30px;
+	margin: 10px 5px;
+}
