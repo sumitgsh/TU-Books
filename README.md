@@ -8,7 +8,7 @@
 
 ## Introduction
 
-> TU Books is developed with the intention to provide a reliable resource platform where students of the Tezpur University can look for books and preview/download it without searching it on various places on the Internet. It allows the student to have a soft copy of their books which can be accessible from anywhere and can use the platform for reading books.
+TU Books is developed with the intention to provide a reliable resource platform where students of the Tezpur University can look for books and preview/download it without searching it on various places on the Internet. It allows the student to have a soft copy of their books which can be accessible from anywhere and can use the platform for reading books.
 
 
 ## Pre-requisites
