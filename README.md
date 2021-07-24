@@ -2,7 +2,8 @@
 <p align="center">
   <img src="https://github.com/sumitgsh/TU-Books/blob/main/public/Logo.png"/>
 </p>
-
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 ## Introduction
 
 > TU Books is developed with the intention to provide a reliable resource platform where students of the Tezpur University can look for books and preview/download it without searching it on various places on the Internet. It allows the student to have a soft copy of their books which can be accessible from anywhere and can use the platform for reading books.
